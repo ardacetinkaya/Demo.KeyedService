@@ -1,0 +1,9 @@
+@keyed_service_HostAddress = http://localhost:5011
+
+GET {{keyed_service_HostAddress}}/api/v1/products
+Accept: application/json
+
+###
+
+GET {{keyed_service_HostAddress}}/api/v1/products/alternatives
+Accept: application/json
